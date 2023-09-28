@@ -158,7 +158,6 @@ export const getUserTweets = catchAsyncError(async (req, res, next) => {
   }
   const { user } = req;
 
-  try {
     if (!user.following.includes(userId)) {
       return next(new errorHandler("You are not following this user", 403));
     }
@@ -176,7 +175,5 @@ export const getUserTweets = catchAsyncError(async (req, res, next) => {
       message: "User's tweets retrieved successfully",
       tweets: userTweets,
     });
-  } catch (error) {
-    next(error);
-  }
+
 });
