@@ -38,28 +38,28 @@ Start the Node.js server:
 
 Access the application in your web browser or using an API testing tool like Postman.
 
-API Endpoints
-/api/register: Register a new user.
-/api/login: Log in as a user.
-/api/me/:id/user/:userId/follow : follow user.
-/api/me/:id : get user's profile
-/api/me/:id/user/:userId : get another user's profile
-/api/tweets/: Get a list of all tweets.
-/api/me/tweets/newTweet: Post a new tweet.
-/api/me/profile: Get the authenticated user's profile.
-/api/me/:userId/tweets: Get all following users tweets
-/api/me/:id/tweets/:tweetId/ : Get single tweet details
-/api/me/:userId/follow: Follow a user by their ID.
-/api/me/tweets/:tweetId/like: Like a tweet by its ID.
-/api/me/:id/tweets/:tweetId/removeTweet : Delete the tweet
+API Endpoints <br />
+/api/register: Register a new user.<br />
+/api/login: Log in as a user. <br />
+/api/me/:id/user/:userId/follow : follow user. <br />
+/api/me/:id : get user's profile <br />
+/api/me/:id/user/:userId : get another user's profile <br />
+/api/tweets/: Get a list of all tweets. <br />
+/api/me/tweets/newTweet: Post a new tweet. <br />
+/api/me/profile: Get the authenticated user's profile. <br />
+/api/me/:userId/tweets: Get all following users tweets <br />
+/api/me/:id/tweets/:tweetId/ : Get single tweet details <br />
+/api/me/:userId/follow: Follow a user by their ID.<br />
+/api/me/tweets/:tweetId/like: Like a tweet by its ID. <br />
+/api/me/:id/tweets/:tweetId/removeTweet : Delete the tweet <br />
 
 
-Folder Structure
-controllers/: Contains route handlers and controller logic.
-models/: Defines Mongoose models for User and Tweet.
-routes/: Defines API routes.
-middlewares/: Custom middleware functions.
-utils/: Utility functions and error handling.
+Folder Structure <br />
+controllers/: Contains route handlers and controller logic. <br /> 
+models/: Defines Mongoose models for User and Tweet. <br />
+routes/: Defines API routes. <br />
+middlewares/: Custom middleware functions. <br />
+utils/: Utility functions and error handling. <br />
 
 
 
